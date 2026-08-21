@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>IRO - Issues Reporting Outlet</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f7f6;
+            color: #222;
+        }
+
+        header {
+            background: #006b3c;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 30px;
+            margin-bottom: 8px;
+        }
+
+        header p {
+            font-size: 15px;
+        }
+
+        nav {
+            background: #ffffff;
+            padding: 12px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        nav a {
+            color: #006b3c;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+
+        .hero {
+            padding: 50px 20px;
+            text-align: center;
+            background: white;
+        }
+
+        .hero h2 {
+            color: #006b3c;
+            font-size: 28px;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            max-width: 650px;
+            margin: auto;
+            line-height: 1.6;
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 14px 25px;
+            background: #006b3c;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+        }
+
+        .button:hover {
+            background: #004d2c;
+        }
+
+        .section {
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .section h2 {
+            text-align: center;
+            color: #006b3c;
+            margin-bottom: 25px;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+        }
+
+        .card h3 {
+            color: #006b3c;
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            line-height: 1.5;
+        }
+
+        footer {
+            background: #006b3c;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 24px;
+            }
+
+            .hero h2 {
+                font-size: 23px;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 5px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>IRO</h1>
+        <p>Issues Reporting Outlet</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#report">Report an Issue</a>
+        <a href="#about">About IRO</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section class="hero" id="home">
+        <h2>Welcome to IRO</h2>
+
+        <p>
+            The Issues Reporting Outlet (IRO) provides a simple and accessible
+            platform for AAUA students and indigenes to report issues,
+            concerns, complaints and challenges that require attention.
+        </p>
+
+        <a href="#report" class="button">Report an Issue</a>
+    </section>
+
+    <section class="section" id="report">
+        <h2>Report an Issue</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>Student Issues</h3>
+                <p>
+                    Report challenges affecting students within the university
+                    community.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Community Issues</h3>
+                <p>
+                    Report issues affecting AAUA indigenes and surrounding
+                    communities.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Safety & Security</h3>
+                <p>
+                    Report concerns relating to safety, security and other
+                    urgent matters.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="section" id="about">
+        <h2>About IRO</h2>
+
+        <p style="text-align:center; line-height:1.7;">
+            IRO is designed to provide an organized channel through which
+            students and indigenes can communicate issues, submit complaints
+            and bring important concerns to the attention of the appropriate
+            authorities.
+        </p>
+    </section>
+
+    <section class="section" id="contact">
+        <h2>Contact</h2>
+
+        <p style="text-align:center; line-height:1.7;">
+            For enquiries and further information, please contact the IRO
+            administration.
+        </p>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 IRO - Issues Reporting Outlet</p>
+        <p>AAUA Students & Indigenes</p>
+    </footer>
+
+</body>
+</html>
